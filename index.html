@@ -1,11 +1,219 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phillip Zamora</title>
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-</body>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        }
+        .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        }
+        header {
+        background: #333;
+        color: #fff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #77aaff 3px solid;
+        }
+        header a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        }
+        header ul {
+        padding: 0;
+        list-style: none;
+        }
+        header li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+        }
+        .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px auto;
+        display: block;
+        }
+        .content {
+        padding: 20px;
+        background: #fff;
+        margin: 20px 0;
+        }
+        .content h2 {
+        color: #333;
+        }
+        .content p {
+        line-height: 1.6;
+        }
+        .portfolio a {
+        color: #77aaff;
+        text-decoration: none;
+        }
+        .portfolio a:hover {
+        text-decoration: underline;
+        }
+        </style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <h1>Phillip Zamora - Software Developer/Air Force Officer</h1>
+        </div>
+    </header>
+    <div class="container">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>
+            A highly motivated and skilled Air Force officer with a background in software 
+            development and a passion for leveraging technology to achieve mission success. 
+            Seeking to apply my expertise in computer science and software development 
+            within a dynamic and challenging environment. 
+            </p>
+        </div>
+        <div class="content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Automation</li>
+                <li>Software Tester</li>
+                <li>C#, Java, C++, Excel VBA, TypeScript, JavaScript, Python </li>
+                <li>Military UAV Pilot</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="embed-responsive embed-responsive-1by1">
+                            <iframe class="h-80 embed-responsive-item"
+                                    src="https://phlipzamo.github.io/TTSTW_Build/"
+                                    width="100%"
+                                    height ="800"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <iframe class="h-80 embed-responsive-item"
+                                    src="https://phlipzamo.github.io/CCQ/"
+                                    width="100%"
+                                    height ="800"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="content">
+            <h2>Portfolio</h2>
+            <ul class="portfolio">
+                <li><a href="https://phlipzamo.github.io/TTSTW_Build/">Project 1: Type To Save The World</a></li>
+                <li><a href="https://phlipzamo.github.io/CCQ/">Project 2: Cosmic Code Quest</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Experience</h2>
+            <p>
+            <strong>United States Air Force</strong><br>
+            August 2021 - Present<br>
+            - MQ-9 Pilot<br>
+            - Experienced and mission-focused MQ-9 Pilot with a proven track record of executing launch and recovery missions.<br>
+            - Proficient in remotely operating the MQ-9 Reaper unmanned aircraft system, ensuring precise control and effective payload management.<br> 
+            - Adept at mission planning, coordination, and adapting to emergent situations.<br>
+            - Committed to compliance with aviation regulations and safety protocols.<br>
+            - Strong collaborator, working seamlessly with intelligence analysts, sensor operators, and team members to achieve mission success.<br>
+            - Demonstrated ability to maintain situational awareness and make informed decisions.<br>
+            - Developed Automation solutions using Excel VBA and Power Platform to enhance squadrons efficiency <br>
+            </p>
+            <p>
+            <strong>Air Force Research Lab</strong><br>
+            Software engineer (Summer 2021) <br>
+            - Responsible for designing, developing, and maintaining automated testing frameworks to ensure the quality and reliability of software products.<br> 
+            - Created and implemented test cases for various cameras utilized by the Lab, ensuring quality.<br>
+            - Assisted in developing UX/UI experience for an image sharpening software.<br>
+            Intern (Summer 2020-Summer 2021)<br>
+            - Learned how to implement PID controllers and image sharpening algorithms.<br>
+            - Engaged in hands-on development and acquired proficiency in implementing PID controllers, demonstrating an ability to enhance system stability and response.<br> 
+            - Gained expertise in image processing by developing and optimizing algorithms for image sharpening, contributing to improved visual quality and clarity.<br>
+            - Learned independently, researched emerging technologies, and adapted quickly to new challenges.<br>
+            </p>
+            <p>
+                <strong>Daktronics</strong><br>
+                Software Design Student (Jan 2019-March 2020)<br>
+                - Demonstrated strong development skills in C#/.NET and a solid understanding of Azure DevOps.<br>
+                - Responsible for problem-solving and logical thinking to design and implement effective software solutions.<br>
+                - Excelled in debugging and updating previously written code.<br>
+                Systems Test Student (June 2018-Jan 2020)<br>
+                - Actively involved in ensuring the quality and reliability of software systems.<br>
+                - Responsible for designing and executing comprehensive system test plans to identify and address potential issues in software applications.<br>
+                - Excelled in creating and maintaining test environments, conducting various types of testing, and documenting test cases and results.<br>
+            </p>
+        </div>
+        <div class="content">
+            <h2>Education</h2>
+            <p>
+            <strong>M.S. of Computer Science from National University | August 2024</strong><br>
+            - Advanced proficiency in java and C++ programming languages including threading and algorithm optimization.<br>
+            - Designing and documenting software architectures.<br>
+            - In-depth knowledge of modern operating systems.<br>
+            - Troubleshooting and optimizing operating system performance.<br>
+            - Application of encryption and secure coding practices.<br>
+            - Identifying and mitigating security vulnerabilities.<br>
+            - Designing and implementing user interfaces and knowledge of UX/UI principles.<br>
+            - Understanding of normalization and database optimization.<br>
+            </p>
+            <p>
+            <strong>B.S. of Computer Science from South Dakota State University | December 2020 </strong><br>
+            - Proficient in languages such as Java, C++, Python, Dart, Swift and C#.<br>
+            - Experience in HTML, CSS, and TypeScript for building and styling web pages.<br> 
+            - Understanding of database systems like MySQL, Oracle, or MongoDB.<br> 
+            - Knowledge of software development life cycle, version control tool GIT, and Agile methodologies.<br>
+            - Strong foundation in designing and implementing algorithms and data structures.<br> 
+            - Familiarity with various operating systems, including Windows, Linux, and Unix.<br>
+            - High level of understanding of compilers and parsers.<br>
+            </p>
+        </div>
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
